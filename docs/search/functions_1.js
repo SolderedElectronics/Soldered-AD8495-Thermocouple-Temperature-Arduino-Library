@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aea626d369c76c341ddbb3b3b56ca1466',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['gettemperaturec_0',['getTemperatureC',['../class_a_d8495.html#a8577635b356518157a1e82cd5592583d',1,'AD8495']]],
+  ['gettemperaturef_1',['getTemperatureF',['../class_a_d8495.html#ab61f88cf0b94ebc04c876960b8c7c033',1,'AD8495']]],
+  ['getvalue_2',['getValue',['../class_a_d8495.html#a1535fbffc5696ad152840dc99c281982',1,'AD8495']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a6cc54c42df12088fb26c95d7aabb4534',1,'EASYC_SOLDERED_LIBS::EasyC::begin()'],['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aaf85911806bdd2b01162047e53c0090b',1,'EASYC_SOLDERED_LIBS::EasyC::begin(uint8_t _address)']]],
-  ['begindone_1',['beginDone',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aa55074f480410ec00272d0a23b540074',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['gettemperaturec_0',['getTemperatureC',['../class_a_d8495.html#a8577635b356518157a1e82cd5592583d',1,'AD8495']]],
+  ['gettemperaturef_1',['getTemperatureF',['../class_a_d8495.html#ab61f88cf0b94ebc04c876960b8c7c033',1,'AD8495']]],
+  ['getvalue_2',['getValue',['../class_a_d8495.html#a1535fbffc5696ad152840dc99c281982',1,'AD8495']]]
 ];
