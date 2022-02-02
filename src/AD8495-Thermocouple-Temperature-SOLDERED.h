@@ -14,7 +14,7 @@
 
 #include "Arduino.h"
 
-#define VREF  2.5
+#define VREF 2.5
 
 class AD8495
 {
