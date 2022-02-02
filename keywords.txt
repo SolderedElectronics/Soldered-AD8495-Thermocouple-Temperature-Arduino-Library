@@ -1,16 +1,20 @@
 ##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+# Syntax Coloring Map For AD8495-SOLDERED
 ##################################################
 
 ##################################################
 # Datatypes (KEYWORD1)
 ##################################################
 
+AD8495  KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+getValue    KEYWORD2
+getTemperatureC  KEYWORD2
+getTemperatureF  KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
