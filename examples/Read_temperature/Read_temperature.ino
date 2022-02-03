@@ -21,9 +21,9 @@ void setup()
 void loop()
 {
   Serial.print("Temperature: ");
-  Serial.print(sensor.getTemperatureC());
+  Serial.print(sensor.getTemperatureC()); //Get temperature from sensor in Celsius
   Serial.print("°C or ");
-  Serial.print(sensor.getTemperatureF());
+  Serial.print(sensor.getTemperatureF()); //Get temperature from sensor in Fahrenheit
   Serial.println(" °F");
   delay(1000);
 }
