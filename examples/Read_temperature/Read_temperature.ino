@@ -20,10 +20,10 @@ void setup()
 
 void loop()
 {
-  Serial.print("Temperature: ");
-  Serial.print(sensor.getTemperatureC());
+  Serial.print("Temperature: ");  //Print message
+  Serial.print(sensor.getTemperatureC()); //Print temperature in Celsius
   Serial.print("°C or ");
-  Serial.print(sensor.getTemperatureF());
+  Serial.print(sensor.getTemperatureF()); //Print message in Fahrenheit
   Serial.println(" °F");
   delay(1000);
 }
