@@ -39,7 +39,7 @@ int AD8495::getValue()
  */
 float AD8495::getTemperatureC()
 {
-    return (getValue() - 511) * 0.976;
+    return (getValue() - 511 + offset) * 0.976;
 }
 
 /**
@@ -49,5 +49,15 @@ float AD8495::getTemperatureC()
  */
 float AD8495::getTemperatureF()
 {
-    return (getValue() - 511) * 1.7568 + 32;
+    return (getValue() - 511 + offset) * 1.7568 + 32;
+}
+
+void AD8495::calibrateC(int _t)
+{
+    offset = (getTemperatureC() - _t) / 0.976;
+}
+
+void AD8495::calibrateF(int _t)
+{
+    offset = (getTemperatureC() - _t) / 1.7568;
 }
