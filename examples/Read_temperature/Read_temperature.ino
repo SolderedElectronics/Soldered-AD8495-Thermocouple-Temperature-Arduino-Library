@@ -9,6 +9,13 @@
  * @authors     Goran Juric @ soldered.com
  ***************************************************/
 
+//Connecting diagram
+//Breakout      Arduino
+//|-------------|
+//OUT-----------A0
+//GND-----------GND
+//VCC-----------5V
+
 #include "AD8495-Thermocouple-Temperature-SOLDERED.h"
 
 AD8495 sensor(A0); //AD8495 initialization, it is connected on pin A0
