@@ -110,11 +110,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab61f88cf0b94ebc04c876960b8c7c033"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_d8495.html#ab61f88cf0b94ebc04c876960b8c7c033">getTemperatureF</a> (void)</td></tr>
 <tr class="memdesc:ab61f88cf0b94ebc04c876960b8c7c033"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function which returns temperature in Fahrenheit.  <a href="class_a_d8495.html#ab61f88cf0b94ebc04c876960b8c7c033">More...</a><br /></td></tr>
 <tr class="separator:ab61f88cf0b94ebc04c876960b8c7c033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20c834d7954df1a35251e13991957df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_d8495.html#ac20c834d7954df1a35251e13991957df">calibrateF</a> (int)</td></tr>
+<tr class="separator:ac20c834d7954df1a35251e13991957df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37690298ad463fd527228f4a260d9bec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_d8495.html#a37690298ad463fd527228f4a260d9bec">calibrateC</a> (int)</td></tr>
+<tr class="separator:a37690298ad463fd527228f4a260d9bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a3392ef63f9c3cfa8817e27896765e9bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_d8495.html#a3392ef63f9c3cfa8817e27896765e9bf">pin</a></td></tr>
 <tr class="separator:a3392ef63f9c3cfa8817e27896765e9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247551a2d971cdc1a7e801d5ded4c79d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_d8495.html#a247551a2d971cdc1a7e801d5ded4c79d">offset</a></td></tr>
+<tr class="separator:a247551a2d971cdc1a7e801d5ded4c79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aafab6f6145df8efafc54023f79c96349" name="aafab6f6145df8efafc54023f79c96349"></a>
@@ -144,6 +150,42 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a37690298ad463fd527228f4a260d9bec" name="a37690298ad463fd527228f4a260d9bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37690298ad463fd527228f4a260d9bec">&#9670;&nbsp;</a></span>calibrateC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AD8495::calibrateC </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac20c834d7954df1a35251e13991957df" name="ac20c834d7954df1a35251e13991957df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20c834d7954df1a35251e13991957df">&#9670;&nbsp;</a></span>calibrateF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AD8495::calibrateF </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>_t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8577635b356518157a1e82cd5592583d" name="a8577635b356518157a1e82cd5592583d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8577635b356518157a1e82cd5592583d">&#9670;&nbsp;</a></span>getTemperatureC()</h2>
 
@@ -208,6 +250,28 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a247551a2d971cdc1a7e801d5ded4c79d" name="a247551a2d971cdc1a7e801d5ded4c79d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247551a2d971cdc1a7e801d5ded4c79d">&#9670;&nbsp;</a></span>offset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AD8495::offset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3392ef63f9c3cfa8817e27896765e9bf" name="a3392ef63f9c3cfa8817e27896765e9bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3392ef63f9c3cfa8817e27896765e9bf">&#9670;&nbsp;</a></span>pin</h2>
 
@@ -242,7 +306,7 @@ Private Attributes</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_a_d8495.html">AD8495</a></li>
         <li class="footer">
-            Generated on Tue Feb 8 2022 07:13:28 for Soldered AD8495 Thermocouple Temperature Sensor Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Mon Feb 14 2022 08:34:57 for Soldered AD8495 Thermocouple Temperature Sensor Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.3.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
