@@ -23,9 +23,11 @@ class AD8495
     int getValue(void);
     float getTemperatureC(void);
     float getTemperatureF(void);
+    void calibrateF(int);
+    void calibrateC(int);
 
   private:
-    int pin;
+    int pin, offset;
 };
 
 #endif
