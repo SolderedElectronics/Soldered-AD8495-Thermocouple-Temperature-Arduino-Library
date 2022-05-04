@@ -1,6 +1,6 @@
 # AD8495 Thermocouple Temperature Sensor Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/actions/workflows/make_docs.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![AD8495 Thermocouple Temperature Sensor breakout board](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
