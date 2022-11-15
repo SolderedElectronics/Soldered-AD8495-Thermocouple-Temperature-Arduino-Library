@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]]
+  ['thermocouple_20sensor_20ad8495_20breakout_20arduino_20library_0',['Thermocouple sensor AD8495 breakout Arduino library',['../index.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['offset_0',['offset',['../class_a_d8495.html#a247551a2d971cdc1a7e801d5ded4c79d',1,'AD8495']]]
+  ['pin_0',['pin',['../class_a_d8495.html#a3392ef63f9c3cfa8817e27896765e9bf',1,'AD8495']]]
 ];

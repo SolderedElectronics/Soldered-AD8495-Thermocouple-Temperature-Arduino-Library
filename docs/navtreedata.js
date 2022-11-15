@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Soldered AD8495 Thermocouple Temperature Sensor Library", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", [
+    [ "Thermocouple sensor AD8495 breakout Arduino library", "index.html", [
       [ "Have fun!", "index.html#autotoc_md8", null ]
     ] ],
     [ "Classes", "annotated.html", [
