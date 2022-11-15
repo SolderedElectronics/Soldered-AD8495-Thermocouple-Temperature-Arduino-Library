@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]]
+  ['pin_0',['pin',['../class_a_d8495.html#a3392ef63f9c3cfa8817e27896765e9bf',1,'AD8495']]]
 ];
