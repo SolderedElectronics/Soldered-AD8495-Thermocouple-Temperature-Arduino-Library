@@ -1,12 +1,12 @@
 # Thermocouple sensor AD8495 breakout Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/actions/workflows/arduino_lint.yml)
+
 
 | ![Thermocouple sensor AD8495 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-----------------------------------------------------------------------------------------------------------: |
 |                      [Thermocouple sensor AD8495 breakout](https://www.solde.red/333053)                      |
-
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
 
 ### Repository Contents
 
@@ -22,7 +22,7 @@ You can find hardware design for this board in [_Thermocouple sensor AD8495 brea
 
 Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the Thermocouple sensor board
 - Installing an Arduino library
 
 ### Board compatibility
@@ -33,18 +33,13 @@ The library is compatible with board & microcontroller families shown in green b
 
 ### About Soldered
 
-<img src="https://raw.githubusercontent.com/e-radionicacom/Soldered-AD8495-Thermocouple-Temperature-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
+<img src="https://raw.githubusercontent.com/e-radionicacom/Soldered-Generic-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
 
 At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
 
 - [Web Store](https://www.soldered.com/shop)
 - [Tutorials & Projects](https://soldered.com/learn)
 - [Community & Technical support](https://soldered.com/community)
-
-### Original source
-
-​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle.
 
 ### Open-source license
 
